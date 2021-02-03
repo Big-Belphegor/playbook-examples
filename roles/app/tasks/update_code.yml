@@ -1,0 +1,5 @@
+---
+- name: update code
+  copy: src={{ item.src }} dest={{ project_path }}/{{ item.dest }}
+  with_items:
+    - { src: 'app.tar.gz', dest: 'webapp.tar.gz' }

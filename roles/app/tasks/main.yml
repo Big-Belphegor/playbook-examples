@@ -1,0 +1,3 @@
+---
+- include: update_code.yml
+- include: restart.yml
